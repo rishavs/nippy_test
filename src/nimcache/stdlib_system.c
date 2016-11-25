@@ -3,7 +3,7 @@
 /* The generated code is subject to the original license. */
 /* Compiled for: Windows, amd64, gcc */
 /* Command for C compiler:
-   gcc.exe -c  -w  -I"C:\Program Files\Nim\lib" -o c:\users\rsharan\devspace\nim\nippy\src\nimcache\stdlib_system.o c:\users\rsharan\devspace\nim\nippy\src\nimcache\stdlib_system.c */
+   gcc.exe -c  -w  -I"C:\Program Files\Nim\lib" -o c:\users\rsharan\documents\github\nippy_test\src\nimcache\stdlib_system.o c:\users\rsharan\documents\github\nippy_test\src\nimcache\stdlib_system.c */
 #define NIM_INTBITS 64
 
 #include "nimbase.h"

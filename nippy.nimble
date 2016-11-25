@@ -1,9 +1,9 @@
 # Package
 
-version                 = "0.1.0"
-author               = "Rishav Sharan"
-description         = "test package"
-license              = "MIT"
+version      = "0.1.0"
+author       = "Rishav Sharan"
+description  = "test package"
+license      = "MIT"
 
 # Dependencies
 
