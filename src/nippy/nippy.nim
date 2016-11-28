@@ -1,5 +1,12 @@
-import sdl2/sdl
+# this test program will have the following
+#    1. a primitive which can be moved using the arrow keys
+#    2. esc to quit program
+#    3. enter to reset it
+#    4. FPS details at top right
 
+
+
+import sdl2/sdl
 
 const
   Title = "SDL2 App"
@@ -7,7 +14,6 @@ const
   ScreenH = 480 # Window height
   WindowFlags = 0
   RendererFlags = sdl.RendererAccelerated or sdl.RendererPresentVsync
-
 
 type
   App = ref AppObj
@@ -68,7 +74,7 @@ proc exit(app: App) =
 
 # Event handling
 # Return true on app shutdown request, otherwise return false
-proc events(): bool =
+proc key_pressed(): bool =
   result = false
   var e: sdl.Event
 
@@ -112,7 +118,7 @@ if init(app):
     app.renderer.renderPresent()
 
     # Event handling
-    done = events()
+    done = key_pressed()
 
 
 # Shutdown
